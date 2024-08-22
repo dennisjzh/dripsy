@@ -202,7 +202,7 @@ export const css = (
         get(theme, themeKey + '.' + val, get(theme, val)),
         breakpoint
       )({ theme })
-      result = { ...result, ...variant }
+      result = { ...variant, ...result }
       continue
     }
 
