@@ -1,3 +1,3 @@
 /// <reference types="./gradient" />
 
-export * from './build'
+export * from './src'
